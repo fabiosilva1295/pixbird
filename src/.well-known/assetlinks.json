@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.yopagg",
+      "sha256_cert_fingerprints": ["A8:9B:90:B1:62:71:69:11:F8:B0:F6:FD:F2:29:98:69:1B:64:2E:67:6F:2F:F6:20:C4:34:89:33:24:A7:8F:84"]
+    }
+  }
+]

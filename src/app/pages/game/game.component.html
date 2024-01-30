@@ -1,0 +1,5 @@
+<div class="screen">
+    <app-header></app-header>
+    <app-counter [moves]="state.moves" [spending]="state.spending" [attemps]="state.attemps" [counter]="state.points"></app-counter>
+    <canvas (click)="onClick()" id="canvas" #canvas  [width]="screen.width" [height]="screen.height"  ></canvas>
+</div>

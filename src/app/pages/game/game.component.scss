@@ -1,0 +1,26 @@
+.screen {
+    width: 100vw;
+    height: 100vh;
+    background: #47a4f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    app-header {
+        width: 100%;
+    }
+
+    app-counter {
+        position: absolute;
+        top: 70px;
+    }
+
+    #canvas {
+        background: none;
+        border-radius: 5px;
+        border: 1px solid #333;
+    }
+}
